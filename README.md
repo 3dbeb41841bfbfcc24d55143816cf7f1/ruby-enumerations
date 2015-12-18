@@ -191,9 +191,9 @@ primes.each { |n| puts “#{n} is prime.” }
 	- Create new array of just their names
 
 ```ruby
-friends = [ { name: ‘Kristin’, met: ‘Atlanta’ }, { name: ‘Doug’, met: ‘School’ }, { name: ‘Kevin’, met: ‘Work’ }]
+friends = [ { name: 'Kristin', met: 'Atlanta' }, { name: 'Doug', met: 'School' }, { name: 'Kevin', met: 'Work' }]
 
-friends.each { |friend| puts “I met #{friend[:name]} in/at #{friend[:met]}” }
+friends.each { |friend| puts "I met #{friend[:name]} in/at #{friend[:met]}" }
 
 friends_name_only = []
 
