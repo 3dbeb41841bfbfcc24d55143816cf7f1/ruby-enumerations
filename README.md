@@ -378,7 +378,7 @@ end
 <br>
 
 ##Lab
-- Do morning_enumeration_`lab`
+- Do `morning_enumeration_lab`
 
 
 ###Bonus
