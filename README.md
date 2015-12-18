@@ -181,7 +181,7 @@ end
 
 -OR-
 
-primes.each { |n| puts “#{n} is prime.” }
+primes.each { |n| puts "#{n} is prime." }
 
 ```
 
