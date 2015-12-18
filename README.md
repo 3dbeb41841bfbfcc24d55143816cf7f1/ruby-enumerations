@@ -284,13 +284,13 @@ end
 
   or...
   
-```
+```ruby
 %w(Fred Wilma Barney).each { |name| print_name(name) }
 ```
 
   or ...
   
-```
+```ruby
 %w(Fred Wilma Barney).each do |name| 
   print_name(name)
 end
