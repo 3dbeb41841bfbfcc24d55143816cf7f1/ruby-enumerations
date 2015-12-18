@@ -176,13 +176,12 @@ students = ['Suzy', 'Daniel', 'James', 'Mary', 'Phillip', 'Siegfried']
 ```ruby
 primes = [2, 3, 5, 7]
 primes.each do |n|
-  puts “#{n} is prime.”
+  puts "#{n} is prime."
 end
 
 -OR-
 
 primes.each { |n| puts "#{n} is prime." }
-
 ```
 
 - Live Coding - Hashes
