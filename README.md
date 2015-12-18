@@ -191,10 +191,12 @@ primes.each { |n| puts “#{n} is prime.” }
 	- Create new array of just their names
 
 ```ruby
+# How I met each one
 friends = [ { name: 'Kristin', met: 'Atlanta' }, { name: 'Doug', met: 'School' }, { name: 'Kevin', met: 'Work' }]
 
 friends.each { |friend| puts "I met #{friend[:name]} in/at #{friend[:met]}" }
 
+# Friend's name only
 friends_name_only = []
 
 friends.each do |friend|
